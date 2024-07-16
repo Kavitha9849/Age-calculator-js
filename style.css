@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+    background: rgb(55, 55, 76);
+}
+.card{
+    background-color: #f0f0f0;
+    padding: 20px;
+    width:400px;
+    height: 250px;
+border-radius:20px ;
+box-shadow: 0 4px 8px rgba(27, 10, 10, 0.5);
+text-align: center;
+}
+.input-container{
+    padding:10px;
+    margin-bottom: 15px;
+}
+#birthdate{
+    padding: 8px;
+    border:#f0f0f0;
+    outline:auto;
+    font-size: large;
+}
+button{
+    padding: 10px;
+    cursor: pointer;
+    outline:auto;
+    font-size:15px;;
+}
+#result{
+    margin-top: 20px;
+    font-weight: bold;
+}
